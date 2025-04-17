@@ -16,7 +16,7 @@ I calculate **z-scores** to standardize each factor, weight them according to po
 - Computes a **Survival Score** based on weighted components
 - Visualizes each country’s survival profile as an **interactive stacked bar chart**
 
-[📊 View Results](RESULTS.md)
+[View Results](RESULTS.md)
 
 ---
 
@@ -60,11 +60,11 @@ Income scores are based on the ratio of individuals earning more than \$50K to t
 
 A higher income ratio suggests better infrastructure, access to resources, and economic stability — factors that could modestly improve survivability. However, income is weighted less compared to education and age, given the collapse of conventional financial systems in this scenario.
 
-## 🧮 Sample Size
+## Sample Size
 
 Sample size was incorporated into the final **Survival Score** by applying a logarithmic weight during score computation. While the z-scores for education, income, and age were calculated based on standardized values across countries, the **sample size** for each country was used to adjust the **impact or confidence** of those scores. Countries who had less than 30 data points were excluded from this analysis.
 
-### ⚖️ Why Weight by Sample Size?
+### Why Weight by Sample Size?
 
 Countries with larger sample sizes (e.g., United States) offer more reliable demographic trends, while smaller sample sizes may skew the z-scores due to statistical noise or anomalies. To balance this:
 
@@ -72,7 +72,7 @@ Countries with larger sample sizes (e.g., United States) offer more reliable dem
 - This prevents countries with extremely large samples from dominating the rankings purely due to volume.
 - It also avoids completely disregarding smaller-sample countries, instead giving them proportional influence.
 
-### 🧠 Formula Adjustment
+### Formula Adjustment
 
 The raw weighted score was scaled like this:
 

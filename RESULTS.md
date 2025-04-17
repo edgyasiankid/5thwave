@@ -1,4 +1,4 @@
-## 📊 Results Summary
+## Results Summary
 
 ### Top 10 Countries by Survival Score
 
