@@ -16,6 +16,8 @@ I calculate **z-scores** to standardize each factor, weight them according to po
 - Computes a **Survival Score** based on weighted components
 - Visualizes each country’s survival profile as an **interactive stacked bar chart**
 
+[📊 View Results](RESULTS.md)
+
 ---
 
 ## Scoring Logic
